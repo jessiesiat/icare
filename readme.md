@@ -1,6 +1,6 @@
 inspired by design patterns
 
-__playground__
+_playground_
 
 ## Todo
 
