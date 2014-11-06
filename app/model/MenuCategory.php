@@ -2,7 +2,7 @@
 
 use App\Model\Collection\MenuCollectionInterface;
 
-class MenuCategory implements MenuCategoryInterface {
+class MenuCategory extends AbstractEntity implements MenuCategoryInterface {
 
 	protected $id;
 

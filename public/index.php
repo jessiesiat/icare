@@ -71,3 +71,6 @@ echo '<h1>'.$menuCategory->getName().'</h1><hr>';
 foreach($menuCategory->getMenu() as $menu) {
 	echo $menu->getName().'<br>';
 }
+
+echo '<hr>';
+print_r($menuCategory->toArray());
